@@ -1,0 +1,25 @@
+.banner__subtitulo{
+    font-size: 22px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-style: Bold;    
+
+    padding-top: 20px;
+}
+
+@media screen and (max-width:651px){
+   .banner__subtitulo{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:521px){
+   .banner__subtitulo{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:421px){
+   .banner__subtitulo{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+}

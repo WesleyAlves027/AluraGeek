@@ -1,0 +1,11 @@
+.form__login{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 291px;
+    margin: 0 auto;
+    padding-top: 4rem;
+    width: 40%;
+    max-width: 423px;
+    min-width: 275px;
+}

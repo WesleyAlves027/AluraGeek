@@ -1,0 +1,10 @@
+.produto__preco{
+    color: #464646;
+
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-style: Bold;  
+
+    padding: 0.5rem 0 0.5rem 0;
+}

@@ -1,0 +1,23 @@
+.cabecalho, .container__produtos, .container__informacoes{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container__mangas ,.container__consoles ,.container__diversos{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+.ocultar{
+    display: none;
+}
+
+@media screen and (max-width:573px){
+    .cabecalho, .container__produtos, .container__informacoes{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+

@@ -1,0 +1,17 @@
+.form__login__button__entrar{
+    background: #2A7AE4;
+    border: none;
+    color: #fff;
+    font-family:'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    height: 63px;
+    margin-top: 1rem;
+    width: 100%;
+}
+@media screen and (max-width:769px){
+    .form__login__button__entrar{
+        height: 40px;
+        width: 109px;
+    }
+}

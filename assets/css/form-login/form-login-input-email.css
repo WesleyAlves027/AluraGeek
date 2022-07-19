@@ -1,0 +1,13 @@
+.form__login__input__email{
+    border: none;
+    flex-shrink: 2;
+    height: 63px;
+    margin: 2rem 0 1rem 0;
+    padding: 0 10px;
+    width: 95.2%;
+}
+@media screen and (max-width:769px){
+    .form__login__input__email{
+        height: 41px;
+    }
+}

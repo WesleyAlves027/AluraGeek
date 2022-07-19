@@ -1,0 +1,18 @@
+.banner__botao{
+    color: #ffff;
+    cursor: pointer;
+    background: #2A7AE4;
+    height: 51px;
+    margin-top: 5px;
+    width:  130px;
+
+    Font-family: 'Raleway';
+    Font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:769px){
+    .banner__botao{
+        height: 40px;
+    }
+}

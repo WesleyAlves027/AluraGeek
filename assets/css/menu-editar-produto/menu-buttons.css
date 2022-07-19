@@ -1,0 +1,7 @@
+.menu__buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+    position: absolute;
+    width: 100%;
+}

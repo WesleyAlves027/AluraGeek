@@ -1,0 +1,19 @@
+.banner__imagem{
+    background: url("../../imagens/banner-imagem.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 352px;
+
+}
+
+@media screen and (max-width:769px){
+    .banner__imagem{
+        background-size: 768px 352px;
+    }
+}
+@media screen and (min-width:768px){
+    .banner__imagem{
+        background-size: 100% 352px;
+    }
+}

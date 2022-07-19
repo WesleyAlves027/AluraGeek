@@ -1,0 +1,12 @@
+.form__login__input__senha{
+    border: none;
+    height: 63px;
+    padding: 0 10px;
+    width: 95.2%;
+}
+
+@media screen and (max-width:769px){
+    .form__login__input__senha{
+        height: 41px;
+    }
+}

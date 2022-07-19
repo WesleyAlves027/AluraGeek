@@ -1,0 +1,8 @@
+.menu__editar__button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.menu__editar__button:first-child{
+    margin-right: 10px;
+}

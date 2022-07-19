@@ -1,0 +1,25 @@
+.cabecalho__botao-login{
+    background: #fff;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    height: 50px;
+    padding: 16px;
+    width: 20%;
+    max-width: 182px;
+    min-width: 133px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (max-width:768px){
+    .cabecalho__botao-login{
+        height: 40px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:361px){
+    .cabecalho__botao-login{
+        min-width:100px;
+    }
+}

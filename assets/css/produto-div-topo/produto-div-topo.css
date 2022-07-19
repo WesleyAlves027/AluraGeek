@@ -1,0 +1,4 @@
+.produto__div__topo{
+    display: flex;
+    justify-content: space-between;
+}

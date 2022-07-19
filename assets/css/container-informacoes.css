@@ -1,0 +1,23 @@
+.container__informacoes{
+    background: #EAF2FD;
+    display: flex;
+    height: 246.9px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    width:90%;
+}
+@media screen and (max-width:769px){
+    .container__informacoes{
+        height:364px; 
+    }
+}
+@media screen and (max-width:573px){
+    .container__informacoes{
+        align-items: center;
+        flex-direction: column;
+        height:520px; 
+        padding-top: 1rem;
+        padding-bottom: 3.2rem;
+
+    }
+}

@@ -1,0 +1,16 @@
+.contato__nome{
+    height:56px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:769px){
+    .contato__nome{
+        height:56px;
+    }
+}
+@media screen and (min-width:768px){
+    .contato__nome{
+        height:56px;
+    }
+}
+

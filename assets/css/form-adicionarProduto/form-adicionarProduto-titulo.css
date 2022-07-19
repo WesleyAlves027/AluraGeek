@@ -1,0 +1,12 @@
+.form__adicionarProduto__titulo{
+    color: #464646;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+}
+
+@media screen and (max-width:420px){
+    .form__adicionarProduto__titulo{
+        font-size: 22px;
+    }
+}

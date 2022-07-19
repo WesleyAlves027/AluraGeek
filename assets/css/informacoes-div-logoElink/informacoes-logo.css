@@ -1,0 +1,8 @@
+.informacoes__logo{
+    margin-bottom: 10px;
+}
+@media screen and (max-width:573px){
+    .informacoes__logo{
+        width: 176px;
+    }
+}

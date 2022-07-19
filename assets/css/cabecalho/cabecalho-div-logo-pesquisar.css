@@ -1,0 +1,11 @@
+.cabecalho__div__logo__pesquisar{
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 100%;
+}
+@media screen and (max-width:619px){
+    .cabecalho__div__logo__pesquisar{
+        width: 100px;
+    }
+}

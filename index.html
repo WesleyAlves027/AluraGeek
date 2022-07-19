@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-div-logo-pesquisar.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-pesquisar.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-botaoLogin.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-botao-menuAdm.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-pesquisar-mobile.css">
+
+    <link rel="stylesheet" href="./assets/css/banner/banner.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-div-informacao.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-subtitulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-botao.css">
+
+    <link rel="stylesheet" href="./assets/css/container-produtos.css">
+    <link rel="stylesheet" href="./assets/css/produto-div-topo/produto-div-topo.css">
+    <link rel="stylesheet" href="./assets/css/produto-div-topo/produto-verMais.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-conteudo.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-verTudo.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-box.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-imagem.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-descricao.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-preco.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-visualizar.css">
+
+    <link rel="stylesheet" href="./assets/css/container-informacoes.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-logoElink/informacoes-div-logoElink.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-logoElink/informacoes-logo.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-logoElink/informacoes-link.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-logoElink/informacoes-link-iten.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/informacoes-div-contato.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/contato-titulo.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/input-contato.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/contato-nome.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/contato-mensagem.css">
+    <link rel="stylesheet" href="./assets/css/informacoes-div-contato/contato-botaoEnviar.css">
+
+    <link rel="stylesheet" href="./assets/css/rodape.css">
+
+    <link rel="stylesheet" href="./assets/css/container-login.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login-titulo.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login-input-email.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login-input-senha.css">
+    <link rel="stylesheet" href="./assets/css/form-login/form-login-button-entrar.css">
+
+    <link rel="stylesheet" href="./assets/css/container-adicionarProduto.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/input-adicionarProduto.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-imagem.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-nome.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-categoria.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-preco.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-descricao.css">
+    <link rel="stylesheet" href="./assets/css/form-adicionarProduto/form-adicionarProduto-enviar.css">
+
+    <link rel="stylesheet" href="./assets/css/container-adm.css">
+    <link rel="stylesheet" href="./assets/css/adm-topo/adm-topo.css">
+    <link rel="stylesheet" href="./assets/css/adm-topo/adm-topo-titulo.css">
+    <link rel="stylesheet" href="./assets/css/adm-topo/adm-topo-button-adicionarProduto.css">
+
+    <link rel="stylesheet" href="./assets/css/menu-editar-produto/menu-editar-produto.css">
+    <link rel="stylesheet" href="./assets/css/menu-editar-produto/menu-buttons.css">
+    <link rel="stylesheet" href="./assets/css/menu-editar-produto/menu-editar-button.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="cabecalho__div__logo__pesquisar">
+            <img class="cabecalho__logo" src="./assets/imagens/Logo.png" alt="">
+            <input class="cabecalho__pesquisar" type="text" placeholder="O que desejar encontrar?">
+        </section>
+            <button  class="cabecalho__botao-login">Login</button>
+            <button  class="cabecalho__botao__menuAdm ocultar">Menu Administrador</button>
+            <input class="cabecalho__pesquisar__mobile">
+    </header>
+    <main class="container">
+        <section class="banner">
+            <div class="banner__imagem">
+                <div class="banner__div__informacao">
+                    <h2 class="banner__titulo">Dezembro Promocional</h2>
+                    <h3 class="banner__subtitulo">Produtos selecionados com 33% de desconto</h3>
+                    <button class="banner__botao">Ver Consoles</button>
+                </div>
+            </div>
+        </section>
+        <section class="container__produtos">
+            <section class="container__adm ocultar">
+                <div class="adm__topo">
+                    <h2 class="adm__topo__titulo">Todos os produtos</h2>
+                    <button class="adm__topo__button__adicionarProduto">Adicionar Produto</button>
+                </div>
+            </section>
+            <section class="container__mangas">
+                <div id="titulo__manga" class="produto__div__topo">
+                    <h2 class="produto__titulo"> Mangás</h2>
+                    <button class="produto__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
+                </div>
+                <section class="produto__conteudo produto__manga">
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/one-piece.jpg" alt="manga One Piece volume 70">
+                        <p class="produto__descricao">One Piece Volume 70</p>
+                        <p class="produto__preco">R$ 25,40</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/berserk.jpg" alt="manga Berserk Volume 1">
+                        <p class="produto__descricao">Berserk Volume 1</p>
+                        <p class="produto__preco">R$ 82,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/kingdom.jpg" alt="manga Kingdom volume 1">
+                        <p class="produto__descricao">Kingdom volume 1</p>
+                        <p class="produto__preco">R$ 57,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/hunter-hunter.jpg" alt="manga Hunter x Hunter Volume 11">
+                        <p class="produto__descricao">Hunter x Hunter Volume 11</p>
+                        <p class="produto__preco">R$ 32,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/my-hero-academia.jpg" alt="manga My Hero Academia ">
+                        <p class="produto__descricao">My Hero Academia</p>
+                        <p class="produto__preco">R$ 52,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/naruto.jpg" alt="manga Naruto Shippuden">
+                        <p class="produto__descricao">Naruto Shippuden</p>
+                        <p class="produto__preco">R$ 35,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                </section>
+            </section>
+            <section class="container__consoles">
+                <div id="titulo__console" class="produto__div__topo">
+                    <h2 class="produto__titulo"> Consoles</h2>
+                    <button class="produto__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
+                </div>
+                <section class="produto__conteudo">
+                    <div class="produto__box">
+                          <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/xbox-360.jpg" alt="xbox-360">
+                        <p class="produto__descricao">Xbox 360 Slim</p>
+                        <p class="produto__preco">R$ 900,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/xbox-s.jpg" alt="Xbox Series S">
+                        <p class="produto__descricao">Xbox Series S 500gb</p>
+                        <p class="produto__preco">R$ 2.100,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                          <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/ps5.png" alt="PS5">
+                        <p class="produto__descricao">PS5</p>
+                        <p class="produto__preco">R$2.395,24</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/super-nintendo.jpg" alt="Super Nintendo">
+                        <p class="produto__descricao">Super Nintendo</p>
+                        <p class="produto__preco">R$1.500</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/nintendo-3ds.jpg" alt="Nintendo 3DS">
+                        <p class="produto__descricao">Nintendo 3DS</p>
+                        <p class="produto__preco">R$ 1.200,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                          <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/nintendo-switch.jpg" alt="Nintendo Switch">
+                        <p class="produto__descricao">Nintendo Switch</p>
+                        <p class="produto__preco">R$2.469,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                </section>
+            </section>
+            <section class="container__diversos">
+                <div id="titulo__diversos" class="produto__div__topo">
+                    <h2 class="produto__titulo"> Diversos</h2>
+                    <button class="produto__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
+                </div>
+                <section class="produto__conteudo">
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/action-figure-zoro.jpg" alt="Action Figure Zoro">
+                        <p class="produto__descricao">Action Figure Zoro</p>
+                        <p class="produto__preco">R$ 165,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/almofada-gamerOver.jpg" alt="Almofada Gamer Over">
+                        <p class="produto__descricao">Almofada Gamer Over</p>
+                        <p class="produto__preco">R$ 47,90</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/capinha-evangelion.PNG" alt="Capinha para celular -  Evangelion">
+                        <p class="produto__descricao">Capinha Evangelion</p>
+                        <p class="produto__preco">R$ 22,50</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                          <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/camisa-hellFire.jpg" alt="Camisa do clube Hell Fire">
+                        <p class="produto__descricao">Camisa Hell Fire</p>
+                        <p class="produto__preco">R$ 50,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/fone-de-ovido.jpg" alt="Fone de ouvido">
+                        <p class="produto__descricao">Fone via Bluetooth</p>
+                        <p class="produto__preco">R$ 85,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>
+                    <div class="produto__box">
+                        <div class="menu__editar__produto">
+                            <div class="menu__buttons">
+                                <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
+                                <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
+                            </div>
+                        </div>
+                        <img class="produto__imagem" src="./assets/imagens/vr-oculos.jpg" alt="Headset VR, Óculos 3D">
+                        <p class="produto__descricao">Óculos VR</p>
+                        <p class="produto__preco">R$ 170,00</p>
+                        <button class="produto__visualizar">Ver Produto</button>
+                    </div>   
+                </section>
+            </section>   
+        </section>
+        <section class="container__login ocultar">
+            <div class="form__login">
+                <h2 class="form__login__titulo">Iniciar Sessão</h2>
+                <input class="form__login__input__email" placeholder="Escreva o seu email." type="text" >
+                <input class="form__login__input__senha"  placeholder="Escreva a sua senha." type="text" >
+                <button class="form__login__button__entrar">Entrar</button>
+            </div>
+        </section>
+        <section class="container__adicionarProduto ocultar">
+            <form class="form__adicionarProduto">
+                <h2 class="form__adicionarProduto__titulo">Adicionar novo Produto</h2>
+                <input class="form__adicionarProduto__imagem input__adicionarProduto" placeholder="URL da imagem." type="text">
+                <input class="form__adicionarProduto__categoria input__adicionarProduto" placeholder="Categoria." type="text">
+                <input class="form__adicionarProduto__nome input__adicionarProduto" placeholder="Nome do produto." type="text">
+                <input class="form__adicionarProduto__preco input__adicionarProduto" placeholder="Preço do produto." type="text">
+                <input class="form__adicionarProduto__descricao input__adicionarProduto" placeholder="Descrição do produto." type="text">
+                <button class="form__adicionarProduto__enviar input__adicionarProduto">Adicionar Produto</button>
+            </form>
+        </section>
+        <section class="container__informacoes">
+            <div class="informacoes__div__logoElink">
+                <div class="informacoes__logo">
+                    <img src="./assets/imagens/Logo.png" alt="logo da loja">
+                </div>
+                <div class="informacoes__link">
+                    <a class="informacoes__link__iten" href="#">Quem somos</a>
+                    <a class="informacoes__link__iten" href="#">Politica de privacidade</a>
+                    <a class="informacoes__link__iten" href="#">Programa de fidelidade</a>
+                    <a class="informacoes__link__iten" href="#">Nossas lojas</a>
+                    <a class="informacoes__link__iten" href="#">Quero ser franqueado</a>
+                    <a class="informacoes__link__iten" href="#">Anúncie aqui</a>
+                </div>
+            </div>
+            <form class="informacoes__div__contato">
+                <h3 class="contato__titulo">Fale conosco</h3>
+                <input class="contato__input contato__nome input__contato" type="text" placeholder="Nome" required>
+                <input class="contato__input contato__mensagem input__contato" type="text" placeholder="Deixe a sua mensagem" required>
+                <button class="contato__botao-enviar">Enviar mensagem</button>
+            </form>
+        </section>
+        <footer class="rodape">
+            <p>Desenvolvido por Wesley Alves Santana</p>
+            <p>2022</p>
+        </footer>
+    </main>
+
+    <script src="./assets/js/formulario-login.js"></script>
+    <script src="./assets/js/adicionar-produto.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+.cabecalho__botao__menuAdm{
+    background: #fff;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    height: 50px;
+    width: 20%;
+    max-width: 182px;
+    min-width: 133px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (max-width:768px){
+    .cabecalho__botao__menuAdm{
+        height: 40px;
+    }
+}
+@media screen and (max-width:361px){
+    .cabecalho__botao__menuAdm{
+        min-width:100px;
+    }
+}

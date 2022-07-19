@@ -1,0 +1,14 @@
+.informacoes__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:768px){
+    .informacoes__link{
+        margin-left: 0;
+        flex-grow: 1;
+    }
+}

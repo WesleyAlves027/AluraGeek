@@ -1,0 +1,11 @@
+.adm__topo__button__adicionarProduto{
+    background:#2A7AE4;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    height: 51px;
+    width: 164px;
+}

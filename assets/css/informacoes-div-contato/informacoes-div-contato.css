@@ -1,0 +1,22 @@
+.informacoes__div__contato{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    margin-left: 3rem;
+    width: 70%;
+    max-width: 560px;
+
+    
+}
+@media screen and (max-width:573px){
+    .informacoes__div__contato{
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:769px){
+    .informacoes__div__contato{
+        margin-left: 1rem;
+    }
+}

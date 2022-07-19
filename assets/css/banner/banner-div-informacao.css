@@ -1,0 +1,25 @@
+.banner__div__informacao{
+    color: #fff;
+    font-family: Pacifico, cursive;
+    line-height: 35px;
+
+    position: absolute;
+    top: 250px;
+    left: 5%;
+}
+
+@media screen and (max-width:651px){
+    .banner__div__informacao{
+        line-height: 25px;
+    }
+ }
+ @media screen and (max-width:521px){
+    .banner__div__informacao{
+        line-height: 18px;
+    }
+ }
+ @media screen and (max-width:421px){
+    .banner__div__informacao{
+         font-size: 10px;
+    }
+ }

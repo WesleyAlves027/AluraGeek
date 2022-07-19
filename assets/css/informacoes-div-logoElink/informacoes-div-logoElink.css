@@ -1,0 +1,18 @@
+.informacoes__div__logoElink{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+@media screen and (max-width:768px){
+    .informacoes__div__logoElink{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:573px){
+    .informacoes__div__logoElink{
+        min-height: 260px;
+        margin-right: 0px;
+    }
+}

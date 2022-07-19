@@ -1,0 +1,13 @@
+.form__adicionarProduto{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 560px;
+}
+
+@media screen and (max-width:769px){
+    .form__adicionarProduto{
+        width: 96%;
+    }
+}

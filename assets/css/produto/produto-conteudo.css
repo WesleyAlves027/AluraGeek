@@ -1,0 +1,9 @@
+.produto__conteudo{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:573px){
+    .produto__conteudo{
+        justify-content: center;
+    }
+}

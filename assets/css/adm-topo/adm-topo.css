@@ -1,0 +1,12 @@
+.adm__topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:561px){
+    .adm__topo{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
