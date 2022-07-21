@@ -5,7 +5,8 @@
     cursor: pointer;
     background: #2A7AE4;
     height: 51px;
-    padding: 10px;
+    min-height: 51px;
+    padding: 15px;
     line-height: 50px;
     text-decoration: none;
     width:  130px;
