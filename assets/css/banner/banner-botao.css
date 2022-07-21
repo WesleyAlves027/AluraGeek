@@ -1,9 +1,13 @@
 .banner__botao{
+    border:none;
+    border-radius: 4px;
     color: #ffff;
     cursor: pointer;
     background: #2A7AE4;
     height: 51px;
-    margin-top: 5px;
+    padding: 10px;
+    line-height: 50px;
+    text-decoration: none;
     width:  130px;
 
     Font-family: 'Raleway';

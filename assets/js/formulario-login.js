@@ -27,6 +27,7 @@ let tituloDiversos = document.querySelector('#titulo__diversos')
 
 
 btnEntrar.addEventListener('click', function(){
+    mostrarEditarProduto()
     containerLogin.classList.add("ocultar");
 
     containerMangas.removeChild(tituloManga);

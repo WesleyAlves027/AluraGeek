@@ -1,5 +1,6 @@
 .contato__botao-enviar{
     border: none;
+    border-radius: 4px;
     background:#2A7AE4;
     color: #fff;
     cursor: pointer;

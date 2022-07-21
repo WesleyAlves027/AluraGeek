@@ -81,7 +81,7 @@
 <body>
     <header class="cabecalho">
         <section class="cabecalho__div__logo__pesquisar">
-            <img class="cabecalho__logo" src="./assets/imagens/Logo.png" alt="">
+            <img class="cabecalho__logo" src="./assets/imagens/Logo.png" alt="logo da loja">
             <input class="cabecalho__pesquisar" type="text" placeholder="O que desejar encontrar?">
         </section>
             <button  class="cabecalho__botao-login">Login</button>
@@ -94,7 +94,7 @@
                 <div class="banner__div__informacao">
                     <h2 class="banner__titulo">Dezembro Promocional</h2>
                     <h3 class="banner__subtitulo">Produtos selecionados com 33% de desconto</h3>
-                    <button class="banner__botao">Ver Consoles</button>
+                    <a class="banner__botao" href="#titulo__console">Ver Consoles</a>
                 </div>
             </div>
         </section>
@@ -108,11 +108,11 @@
             <section class="container__mangas">
                 <div id="titulo__manga" class="produto__div__topo">
                     <h2 class="produto__titulo"> Mangás</h2>
-                    <button class="produto__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
+                    <button class="produto__ver-tudo" id="produto__mangas__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
                 </div>
                 <section class="produto__conteudo produto__manga">
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -124,7 +124,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -136,7 +136,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -148,7 +148,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -160,7 +160,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -172,7 +172,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -188,11 +188,11 @@
             <section class="container__consoles">
                 <div id="titulo__console" class="produto__div__topo">
                     <h2 class="produto__titulo"> Consoles</h2>
-                    <button class="produto__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
+                    <button class="produto__ver-tudo" id="produto__consoles__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
                 </div>
-                <section class="produto__conteudo">
+                <section class="produto__conteudo produto__console">
                     <div class="produto__box">
-                          <div class="menu__editar__produto">
+                          <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -204,7 +204,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -216,7 +216,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                          <div class="menu__editar__produto">
+                          <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -228,7 +228,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -240,7 +240,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -252,7 +252,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                          <div class="menu__editar__produto">
+                          <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -268,11 +268,11 @@
             <section class="container__diversos">
                 <div id="titulo__diversos" class="produto__div__topo">
                     <h2 class="produto__titulo"> Diversos</h2>
-                    <button class="produto__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
+                    <button class="produto__ver-tudo" id="produto__diversos__ver-tudo">Ver tudo <img src="./assets/imagens/vector.png"></button>
                 </div>
-                <section class="produto__conteudo">
+                <section class="produto__conteudo produto__diversos">
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -284,7 +284,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -296,7 +296,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -308,7 +308,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                          <div class="menu__editar__produto">
+                          <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -320,7 +320,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -332,7 +332,7 @@
                         <button class="produto__visualizar">Ver Produto</button>
                     </div>
                     <div class="produto__box">
-                        <div class="menu__editar__produto">
+                        <div class="menu__editar__produto ocultar">
                             <div class="menu__buttons">
                                 <button class="menu__editar__button"><img src="./assets/imagens/apagar-produto.png"></button>
                                 <button class="menu__editar__button"><img src="./assets/imagens/editar-produto.png"></button>
@@ -349,19 +349,19 @@
         <section class="container__login ocultar">
             <div class="form__login">
                 <h2 class="form__login__titulo">Iniciar Sessão</h2>
-                <input class="form__login__input__email" placeholder="Escreva o seu email." type="text" >
-                <input class="form__login__input__senha"  placeholder="Escreva a sua senha." type="text" >
+                <input class="form__login__input__email" placeholder="Escreva o seu email." type="email" required>
+                <input class="form__login__input__senha"  placeholder="Escreva a sua senha." type="password" required>
                 <button class="form__login__button__entrar">Entrar</button>
             </div>
         </section>
         <section class="container__adicionarProduto ocultar">
             <form class="form__adicionarProduto">
                 <h2 class="form__adicionarProduto__titulo">Adicionar novo Produto</h2>
-                <input class="form__adicionarProduto__imagem input__adicionarProduto" placeholder="URL da imagem." type="text">
-                <input class="form__adicionarProduto__categoria input__adicionarProduto" placeholder="Categoria." type="text">
-                <input class="form__adicionarProduto__nome input__adicionarProduto" placeholder="Nome do produto." type="text">
-                <input class="form__adicionarProduto__preco input__adicionarProduto" placeholder="Preço do produto." type="text">
-                <input class="form__adicionarProduto__descricao input__adicionarProduto" placeholder="Descrição do produto." type="text">
+                <input class="form__adicionarProduto__imagem input__adicionarProduto" placeholder="URL da imagem." type="text" required>
+                <input class="form__adicionarProduto__categoria input__adicionarProduto" placeholder="Categoria." type="text" required>
+                <input class="form__adicionarProduto__nome input__adicionarProduto" placeholder="Nome do produto." type="text" required> 
+                <input class="form__adicionarProduto__preco input__adicionarProduto" placeholder="Preço do produto." type="text" required>
+                <input class="form__adicionarProduto__descricao input__adicionarProduto" placeholder="Descrição do produto." type="text" required>
                 <button class="form__adicionarProduto__enviar input__adicionarProduto">Adicionar Produto</button>
             </form>
         </section>
@@ -394,6 +394,8 @@
 
     <script src="./assets/js/formulario-login.js"></script>
     <script src="./assets/js/adicionar-produto.js"></script>
+    <script src="./assets/js/mostrar-editar-produto.js"></script>
+    <script src="./assets/js/mostar-produto-oculto.js"></script>
 
 </body>
 </html>
